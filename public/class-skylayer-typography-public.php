@@ -74,8 +74,9 @@ class Skylayer_Typography_Public {
 		 */
 
 		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/skylayer-typography-public.css', array(), $this->version, 'all' );
-		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'assets/inter/inter.css', array(), $this->version, 'all' );
-
+		wp_register_style( 'skylayer-typography-inter', plugin_dir_url( __FILE__ ) . 'assets/inter/inter.css', false, '1' );
+		wp_enqueue_style( 'skylayer-typography-inter' );
+		
 	}
 
 	/**
