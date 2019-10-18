@@ -64,6 +64,13 @@ register_deactivation_hook( __FILE__, 'deactivate_skylayer_typography' );
  */
 require plugin_dir_path( __FILE__ ) . 'includes/class-skylayer-typography.php';
 
+require 'plugin-update-checker/plugin-update-checker.php';
+$MyUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
+	'https://repo.skylayer.de/?action=get_metadata&slug=skylayer-typography', //Metadata URL.
+	__FILE__, //Full path to the main plugin file.
+	'skylayer-fonts' //Plugin slug. Usually it's the same as the name of the directory.
+);
+
 /**
  * Begins execution of the plugin.
  *
