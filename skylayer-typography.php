@@ -68,7 +68,7 @@ require 'plugin-update-checker/plugin-update-checker.php';
 $MyUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 	'https://repo.skylayer.de/?action=get_metadata&slug=skylayer-typography', //Metadata URL.
 	__FILE__, //Full path to the main plugin file.
-	'skylayer-fonts' //Plugin slug. Usually it's the same as the name of the directory.
+	'skylayer-typography' //Plugin slug. Usually it's the same as the name of the directory.
 );
 
 /**
