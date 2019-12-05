@@ -5,6 +5,8 @@
 
 
 body {
+	font-size: 16px;
+	line-height: 1.7em;
 	-webkit-font-smoothing: antialiased;
  	-moz-osx-font-smoothing: grayscale;
 	font-family: "Inter", -apple-system, system-ui, BlinkMacSystemFont, 
@@ -14,13 +16,8 @@ body {
 		"zero" 0, "frac" 0, "sups" 0, "subs" 0, "cpsp" 0, "salt", "ss01" 0, "ss02" 0, 
 		"ss03" 0, "cv01" 0, "cv02" 0, "cv03" 0, "cv04" 0, "cv05" 0, "cv06" 0, 
 		"cv07" 0, "cv08" 0, "cv09" 0, "cv10" 0, "cv11" 0, "calt", "liga", "kern";
-	}
-
-
-body {
-	font-size: 16px;
-	line-height: 1.7em;
 }
+
 
 
 .elementor-widget-heading h1.elementor-heading-title, .entry-content h1, .entry-content h1 a {
