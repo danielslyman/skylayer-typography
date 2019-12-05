@@ -21,12 +21,47 @@ body {
 	line-height: 1.7em;
 }
 
+
+
 .elementor-widget-heading h1.elementor-heading-title, .entry-content h1, .entry-content h1 a {
-  font-size: 52px;
+  font-size: 2em;
+  /* 2x body copy size = 32px */
+  line-height: 1.25;
+  /* 45px / 36px */
   font-weight: 600;
-	letter-spacing: -1.3px;
-	line-height: 1.15em;
+  letter-spacing: -1.3px;
+  line-height: 1.15em;
 }
+
+@media (min-width: 43.75em) {
+  .elementor-widget-heading h1.elementor-heading-title, .entry-content h1, .entry-content h1 a {
+    font-size: 2.5em;
+    /* 2.5x body copy size = 40px */
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: -1.3px;
+    line-height: 1.15em;	  
+  }
+}
+
+@media (min-width: 56.25em) {
+  .elementor-widget-heading h1.elementor-heading-title, .entry-content h1, .entry-content h1 a {
+    font-size: 3em;
+    /* 3x body copy size = 48px */
+    line-height: 1.05;
+    /* keep to a multiple of the 20px line height 
+    and something more appropriate for display headings */
+    font-weight: 600;
+    letter-spacing: -1.3px;
+    line-height: 1.15em;
+  }
+}
+
+
+
+
+
+
 
 
 .elementor-widget-heading h2.elementor-heading-title, h2, .entry-content h2, .entry-content h2 a {
