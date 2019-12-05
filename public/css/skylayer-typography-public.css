@@ -23,116 +23,71 @@ body {
 }
 
 
-
 .elementor-widget-heading h1.elementor-heading-title, .entry-content h1, .entry-content h1 a {
-  font-size: 2em;
-  /* 2x body copy size = 32px */
-  line-height: 1.15em;
-  /* 45px / 36px */
+  font-size: 52px;
   font-weight: 600;
-  letter-spacing: -1.3px;
+	letter-spacing: -1.3px;
+	line-height: 1.15em;
 }
-
-@media (min-width: 43.75em) {
-  .elementor-widget-heading h1.elementor-heading-title, .entry-content h1, .entry-content h1 a {
-    font-size: 2.5em;
-    /* 2.5x body copy size = 40px */
-    line-height: 1.15em;
-    font-weight: 600;
-    letter-spacing: -1.3px;	  
-  }
-}
-
-@media (min-width: 56.25em) {
-  .elementor-widget-heading h1.elementor-heading-title, .entry-content h1, .entry-content h1 a {
-    font-size: 3em;
-    /* 3x body copy size = 48px */
-    line-height: 1.15em;
-    /* keep to a multiple of the 20px line height 
-    and something more appropriate for display headings */
-    font-weight: 600;
-    letter-spacing: -1.3px; 
-  }
-}
-
 
 
 .elementor-widget-heading h2.elementor-heading-title, h2, .entry-content h2, .entry-content h2 a {
-  font-size: 1.75em;
-  /* 1.625x body copy size = 26px */
-  line-height: 1em;
-  letter-spacing: -1.2px;
-  /* 30px / 26px */
+  font-size: 48px;
   font-weight: 600;
+	letter-spacing: -1.2px;
+	line-height: 1em;
 }
-
-@media (min-width: 43.75em) {
-  .elementor-widget-heading h2.elementor-heading-title, h2, .entry-content h2, .entry-content h2 a {
-    font-size: 2.25em;
-    /* 2x body copy size = 32px */
-    letter-spacing: -1.2px;
-    line-height: 1em;
-    font-weight: 600;
-  }
-}
-
-@media (min-width: 56.25em) {
-  .elementor-widget-heading h2.elementor-heading-title, h2, .entry-content h2, .entry-content h2 a {
-    font-size: 2.75em;
-    /* 2.25x body copy size = 36px */
-    letter-spacing: -1.2px;
-    line-height: 1em;
-    font-weight: 600;
-  }
-}
-
 
 
 .elementor-widget-heading h3.elementor-heading-title, h3, .entry-content h3, .entry-content h3 a {
-  font-size: 1.5em;
-  /* 1.375x body copy size = 22px */
-  line-height: 1em;
+  font-size: 42px;
   font-weight: 600;
-  letter-spacing: -1.1px;
-  /* 25px / 22px */
+	letter-spacing: -1.1px;
+	line-height: 1em;
 }
-
-@media (min-width: 43.75em) {
-  .elementor-widget-heading h3.elementor-heading-title, h3, .entry-content h3, .entry-content h3 a {
-    font-size: 1.75em;
-    /* 1.5x body copy size = 24px */
-    line-height: 1em;
-    font-weight: 600;
-    letter-spacing: -1.1px;
-  }
-}
-
-@media (min-width: 56.25em) {
-  .elementor-widget-heading h3.elementor-heading-title, h3, .entry-content h3, .entry-content h3 a {
-    font-size: 2em;
-    /* 1.75x body copy size = 28px */
-    line-height: 1em;
-    font-weight: 600;
-    letter-spacing: -1.1px;
-  }
-}
-
 
 
 .elementor-widget-heading h4.elementor-heading-title, h4, .entry-content h4, .entry-content h4 a {
-  font-size: 1.25em;
-  /* 1.125x body copy size = 18px */
-  line-height: 1em;
+  font-size: 34px;
   font-weight: 600;
-  letter-spacing: -1.0px;
+	letter-spacing: -1.0px;
+	line-height: 1em;
 }
 
-@media (min-width: 43.75em) {
-  .elementor-widget-heading h4.elementor-heading-title, h4, .entry-content h4, .entry-content h4 a {
-    line-height: 1.5em;
-    /* (22px / 18px */
-    font-weight: 600;
-    letter-spacing: -1.0px;
-  }
+
+
+
+@media (max-width: 1024px) {
+.elementor-widget-heading h1.elementor-heading-title, .entry-content h1, .entry-content h1 a {
+  font-size: 38px;
+  font-weight: 600;
+	letter-spacing: -1.3px;
+	line-height: 1.1em;
 }
+
+
+.elementor-widget-heading h2.elementor-heading-title, h2, .entry-content h2, .entry-content h2 a {
+  font-size: 34px;
+  font-weight: 600;
+	letter-spacing: -1.2px;
+	line-height: 1.15em;
+}
+
+
+.elementor-widget-heading h3.elementor-heading-title, h3, .entry-content h3, .entry-content h3 a {
+  font-size: 30px;
+  font-weight: 600;
+	letter-spacing: -1.1px;
+	line-height: 1.2em;
+}
+
+
+.elementor-widget-heading h4.elementor-heading-title, h4, .entry-content h4, .entry-content h4 a {
+  font-size: 26px;
+  font-weight: 600;
+	letter-spacing: -1.0px;
+	line-height: 1.25em;
+}
+}	
+
 
