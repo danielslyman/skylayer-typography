@@ -12,14 +12,14 @@ body {
 	font-family: "Inter", -apple-system, system-ui, BlinkMacSystemFont, 
                "Segoe UI", Helvetica, Arial, sans-serif, 
                "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; 
-	font-feature-settings: "dlig" 0, "numr" 0, "dnom" 0, "tnum" 0, "case" 0, 
-		"zero" 0, "frac" 0, "sups" 0, "subs" 0, "cpsp" 0, "salt", "ss01" 0, "ss02" 0, 
-		"ss03" 0, "cv01" 0, "cv02" 0, "cv03" 0, "cv04" 0, "cv05" 0, "cv06" 0, 
-		"cv07" 0, "cv08" 0, "cv09" 0, "cv10" 0, "cv11" 0, "calt", "liga", "kern";
-	-webkit-font-feature-settings: "dlig" 0, "numr" 0, "dnom" 0, "tnum" 0, "case" 0, 
-		"zero" 0, "frac" 0, "sups" 0, "subs" 0, "cpsp" 0, "salt", "ss01" 0, "ss02" 0, 
-		"ss03" 0, "cv01" 0, "cv02" 0, "cv03" 0, "cv04" 0, "cv05" 0, "cv06" 0, 
-		"cv07" 0, "cv08" 0, "cv09" 0, "cv10" 0, "cv11" 0, "calt", "liga", "kern";
+	font-feature-settings: "dlig" 0, "numr" 0, "dnom" 0, "tnum" 0, "case" 0, "zero" 0, 
+		"frac" 0, "sups" 0, "subs" 0, "cpsp", "salt" 0, "ss01", "ss02" 0, "ss03", "cv01" 0, 
+		"cv02" 0, "cv03" 0, "cv04" 0, "cv05", "cv06", "cv07" 0, "cv08" 0, "cv09" 0, "cv10" 0, 
+		"cv11" 0, "calt", "liga", "kern";
+	-webkit-font-feature-settings: "dlig" 0, "numr" 0, "dnom" 0, "tnum" 0, "case" 0, "zero" 0, 
+		"frac" 0, "sups" 0, "subs" 0, "cpsp", "salt" 0, "ss01", "ss02" 0, "ss03", "cv01" 0, 
+		"cv02" 0, "cv03" 0, "cv04" 0, "cv05", "cv06", "cv07" 0, "cv08" 0, "cv09" 0, "cv10" 0, 
+		"cv11" 0, "calt", "liga", "kern";
 }
 
 
