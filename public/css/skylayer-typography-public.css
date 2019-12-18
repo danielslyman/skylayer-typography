@@ -19,70 +19,52 @@ body {
 
 
 .elementor-widget-heading h1.elementor-heading-title, .entry-content h1, .entry-content h1 a {
-  font-size: 52px;
-  font-weight: 600;
-  letter-spacing: -1.3px;
-  line-height: 1.15em;
+ letter-spacing: -1.3px;
+ line-height: 1.15em;
 }
 
 
 .elementor-widget-heading h2.elementor-heading-title, h2, .entry-content h2, .entry-content h2 a {
-  font-size: 48px;
-  font-weight: 600;
   letter-spacing: -1.2px;
   line-height: 1em;
 }
 
 
 .elementor-widget-heading h3.elementor-heading-title, h3, .entry-content h3, .entry-content h3 a {
-  font-size: 42px;
-  font-weight: 600;
   letter-spacing: -1.1px;
   line-height: 1em;
 }
 
 
 .elementor-widget-heading h4.elementor-heading-title, h4, .entry-content h4, .entry-content h4 a {
-  font-size: 34px;
-  font-weight: 600;
   letter-spacing: -1.0px;
   line-height: 1em;
 }
 
 
 
-
 @media (max-width: 1024px) {
 .elementor-widget-heading h1.elementor-heading-title, .entry-content h1, .entry-content h1 a {
-  font-size: 38px;
-  font-weight: 600;
   letter-spacing: -1.3px;
   line-height: 1.1em;
 }
 
 
 .elementor-widget-heading h2.elementor-heading-title, h2, .entry-content h2, .entry-content h2 a {
-  font-size: 34px;
-  font-weight: 600;
   letter-spacing: -1.2px;
   line-height: 1.15em;
 }
 
 
 .elementor-widget-heading h3.elementor-heading-title, h3, .entry-content h3, .entry-content h3 a {
-  font-size: 30px;
-  font-weight: 600;
   letter-spacing: -1.1px;
   line-height: 1.2em;
 }
 
 
 .elementor-widget-heading h4.elementor-heading-title, h4, .entry-content h4, .entry-content h4 a {
-  font-size: 26px;
-  font-weight: 600;
   letter-spacing: -1.0px;
   line-height: 1.25em;
 }
 }	
-
 
