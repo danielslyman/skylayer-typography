@@ -4,17 +4,29 @@
  */
 
 
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+
 body {
-	font-size: 16px;
-	line-height: 1.7em;
+    font-size: var(--fontSize);
+    line-height: var(--lineHeight);
 	-webkit-font-smoothing: antialiased;
  	-moz-osx-font-smoothing: grayscale;
-	font-family: "Inter", -apple-system, system-ui, BlinkMacSystemFont, 
+	font-family: "Inter var", -apple-system, system-ui, BlinkMacSystemFont, 
                "Segoe UI", Helvetica, Arial, sans-serif, 
                "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; 
-	font-feature-settings: "ss01", "ss03", "cv05", "cv06", "calt", "liga", "kern";
-	-webkit-font-feature-settings: "ss01", "ss03", "cv05", "cv06", "calt", "liga", "kern";
+	font-feature-settings:  "cpsp", "calt", "kern";
+	-webkit-font-feature-settings: "cpsp", "calt", "kern";
+	--fontSize: 16px;
+    --lineHeight: calc(var(--fontSize) * 1.5);
+    --spacing: 2rem;
+    --spacingv: calc(var(--lineHeight) / 2);
 }
+
+
 
 
 
